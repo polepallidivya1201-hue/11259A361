@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main(){
+    int a,b,c;
+    scanf("%d%d%d",&a,&b,&c);
+
+    if(a>b && a>c) printf("A biggest");
+    else if(b>c) printf("B biggest");
+    else printf("C biggest");
+}
+
+OUTPUT: a=1
+b=2
+c=3
+c is the biggest
